@@ -3,7 +3,7 @@ package day05_String_Concatenation;
 public class String_Concatenation {
 
     public static void main(String[] args) {
-        /*
+    /*
         byte num1 = 100;
         short num2 = 10000;
         double num3 = 3.5;
@@ -22,8 +22,8 @@ public class String_Concatenation {
 
         System.out.println(n1 + " : " + num1);
 
-       */
-        /*
+    */
+    /*
         String Hi = "Hi, my name is ";
         String name = "Ozer";
 
@@ -32,7 +32,7 @@ public class String_Concatenation {
         String end = " years old.";
 
         System.out.println(Hi + name + age_sentences + age + end);
-*/
+    */
 
         String name = "Mike";
         int age = 50 ;
