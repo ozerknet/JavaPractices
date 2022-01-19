@@ -1,6 +1,6 @@
 package day04_Variables;
 
-public class ZV1 {
+public class ZV1_Circle {
     public static void main(String[] args) {
         double PI = 3.14;
         int radius = (int) 6.5;

@@ -8,7 +8,7 @@ float - stores floating point numbers, with decimals, such as 19.99 or -19.99
 char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 boolean - stores values with two states: true or false
 * */
-public class ZV2 {
+public class ZV2_Variables {
     public static void main(String[] args) {
 
         String name = "Mike";
