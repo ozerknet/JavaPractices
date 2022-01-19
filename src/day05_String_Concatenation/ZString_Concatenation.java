@@ -1,6 +1,6 @@
 package day05_String_Concatenation;
 
-public class String_Concatenation {
+public class ZString_Concatenation {
 
     public static void main(String[] args) {
     /*
