@@ -8,24 +8,30 @@ public class BirthDay {
         int birthYear = 1995;
 
         //John was born on month/day/year.
-        System.out.println(name + " was born on " + month + "/" +birthDay +"/"+birthYear );
+        System.out.println(name + " was born on " + month + "/" + birthDay + "/" + birthYear);
 
         System.out.println("-----------------------------------------------");
 
         // My favorite book is "bookName"
         String bookName = "The Rich Dad and The Poor Dad";
 
-        System.out.println("My favorite book is " +  "\"" +bookName + "\"");
+        System.out.println("My favorite book is " + "\"" + bookName + "\"");
+
+        System.out.println(" \\  \n \t \" Ozer and Family \" ");
         /*
-        \n
-        \t
-        \"
+
+        \n  ---> new line
+        \t  ---> start with one tab
+        \"  ---> "
         \\
+
          */
 
         /*
+
         System.out.println(x);
         int x =200;
+
          */
 
     }
