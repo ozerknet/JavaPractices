@@ -2,13 +2,20 @@ package day06_PrimitiveTypeCastings;
 
 public class ZPrac {
     public static void main(String[] args) {
-        byte a = (byte) 100000;
+        byte a = 68;
         short b = a;
+        int c = b;
+        long d = c;
 
-
-        int c = b ;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
         System.out.println("c = " + c);
+        System.out.println("d = " + d);
 
-        long d = c; 
+        double l = 2.5;
+        float m = (float) l;
+
+
+
     }
 }
