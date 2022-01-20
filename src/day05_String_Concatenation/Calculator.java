@@ -8,6 +8,7 @@ public class Calculator {
 
         int addition = firstNumber + secondNumber;
         int subtraction = firstNumber - secondNumber;
+        int multiplacation = firstNumber * secondNumber;
 
 
         // 100 + 50 = 150
@@ -16,6 +17,11 @@ public class Calculator {
         //100 - 50 = 50
         System.out.println(firstNumber + " - " + secondNumber + " = " + subtraction);
 
+
+
         //100 * 50 = 5000
+        System.out.println(firstNumber + " * " + secondNumber + " = " + multiplacation);
+
+
     }
 }
