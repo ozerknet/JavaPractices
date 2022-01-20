@@ -39,7 +39,7 @@ public class BirthDay {
 
 
 /*
-1. Create a class named BirthDay and create the following variable
+day01 class notes. Create a class named BirthDay and create the following variable
 			 name, birthDay(int), birthMonth(String), birthYear(int)
 			 use concatenation to display the birthday of the person
 			 	if  name = "John"

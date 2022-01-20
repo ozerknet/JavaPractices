@@ -10,8 +10,8 @@ public class Variables_Practice {
         int  num6 = 850000;
 
          /*
-    "123" + 1 = "1231"
-    123 + 1 = 124
+    "123" + day01 class notes = "1231"
+    123 + day01 class notes = 124
     */
 
         System.out.println("num1 = " + num1);
@@ -29,7 +29,7 @@ public class Variables_Practice {
 }
 
 /*
-1. create a class called Variables_Practice & declare the following variables:
+day01 class notes. create a class called Variables_Practice & declare the following variables:
                             num1 = 100;
                             num2 = 10000;
                             num3 = 3.5;

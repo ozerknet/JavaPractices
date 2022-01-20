@@ -2,7 +2,7 @@ package day03_EscapeSequences;
 
 public class PersonalInfo {
     /*
-1. Create a class called PersonalInfo and print followings:
+day01 class notes. Create a class called PersonalInfo and print followings:
 						name
                         gender
                         date of birth

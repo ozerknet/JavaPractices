@@ -33,7 +33,7 @@ public class EmployeeInfo {
 }
 /*
 6. Create a class employeeNamed EmployeeInfo. declare the following variables:
-				1. employeeName (String)
+				day01 class notes. employeeName (String)
 				2. age (int)
 				3. gender (char)
 				4. company (String)

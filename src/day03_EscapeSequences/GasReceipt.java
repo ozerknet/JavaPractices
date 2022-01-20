@@ -19,6 +19,6 @@ public class GasReceipt {
 
 }
 /*
-1. Write a code to print the following output in the console:
+day01 class notes. Write a code to print the following output in the console:
             Pic is in day03 presentation slide
  */

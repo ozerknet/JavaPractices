@@ -18,7 +18,7 @@ public class ZString_Concatenation {
         System.out.println("num5 = "+num5);
         System.out.println("num6 = "+num6);
 
-        String n1 = "Number 1" ;
+        String n1 = "Number day01 class notes" ;
 
         System.out.println(n1 + " : " + num1);
 

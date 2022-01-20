@@ -19,7 +19,7 @@ public class Square {
 }
 
 /*
-1. Create a class named Square, write a program that can calculate the area & perimeter of any given square
+day01 class notes. Create a class named Square, write a program that can calculate the area & perimeter of any given square
 						side (3.5)
 						area = side * side;
 						perimeter = 4 * side
