@@ -1,4 +1,4 @@
-package day05_String_Concatenation;
+package day05_Concatenation;
 
 public class StudentInfo {
     public static void main(String[] args) {

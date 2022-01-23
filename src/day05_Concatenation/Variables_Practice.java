@@ -1,4 +1,4 @@
-package day05_String_Concatenation;
+package day05_Concatenation;
 
 public class Variables_Practice {
     public static void main(String[] args) {
