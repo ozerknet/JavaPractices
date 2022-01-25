@@ -4,8 +4,9 @@ public class ZSalaryCalculator {
     public static void main(String[] args) {
         int hourlyRate = 50;
         int weeklyHours = 45;
-        int stateTaxRate = (int) 0.06;
-        int federalTaxRate = (int) 0.26;
+
+        double federalTaxRate = 26;
+        double stateTaxRate = 6;
 
         int salaryBeforeTax = hourlyRate * weeklyHours * 52;
 
