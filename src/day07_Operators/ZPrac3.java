@@ -37,5 +37,9 @@ public class ZPrac3 {
         boolean result11 = "Ozer" != "Ozer " ;
         System.out.println("------> result11 = " + result11);
 
+        
+        String str = "Java";
+        str+=" Programing";
+        System.out.println("str = " + str);
     }
 }
