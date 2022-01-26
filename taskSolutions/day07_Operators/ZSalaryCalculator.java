@@ -10,9 +10,9 @@ public class ZSalaryCalculator {
 
         int salaryBeforeTax = hourlyRate * weeklyHours * 52;
 
-        double federalTax = federalTaxRate * salaryBeforeTax;
+        double federalTax = salaryBeforeTax * federalTaxRate / 100;
 
-        double stateTax = salaryBeforeTax * stateTaxRate;
+        double stateTax = salaryBeforeTax * stateTaxRate / 100;
 
         double totalTax = stateTax + federalTax;
 
