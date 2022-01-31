@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/replitTaksSolutions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/taskSolutions" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/taskSolutions/SoftSkills" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
