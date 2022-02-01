@@ -2,7 +2,7 @@ package day09_Tasks;
 
 public class CharacterIdentity {
     public static void main(String[] args) {
-        char ch = 'b' ;
+        char ch = 'a' ;
 
         if ((ch>64 && ch<94) || (ch>96&&ch<123)){
             System.out.println("Alphabetic Character");

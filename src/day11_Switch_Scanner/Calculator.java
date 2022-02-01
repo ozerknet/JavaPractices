@@ -7,7 +7,7 @@ public class Calculator {
         double n1 = 200.5,
                 n2 = 10.5;
 
-        char operator = '$';
+        char operator = '*';
 
         boolean valid = operator == '+' || operator == '-' || operator == '*' || operator == '/';
 
