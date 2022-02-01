@@ -1,4 +1,4 @@
-package day02_PrintStatements.day10_Task;
+package day10_Task;
 
 public class Loans {
     public static void main(String[] args) {

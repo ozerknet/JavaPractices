@@ -1,4 +1,4 @@
-package day02_PrintStatements.day10_Task;
+package day10_Task;
 
 public class CrewAndPassangers {
     public static void main(String[] args) {
