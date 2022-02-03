@@ -3,39 +3,34 @@ import java.util.Scanner;
 public class SchoolGrades {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
 
-        String SubjectNameNumber1, SubjectNameNumber2, SubjectNameNumber3, SubjectNameNumber4, SubjectNameNumber5;
-        double ScoreSubject1, ScoreSubject2, ScoreSubject3, ScoreSubject4, ScoreSubject5;
+        String subject1, subject2, subject3, subject4, subject5;
+        double grade1, grade2, grade3, grade4, grade5, grade6;
+        Scanner s = new Scanner(System.in);
 
-        System.out.println("Welcome to the Grader!");
-        System.out.println("Please enter subject name number 1 and score for this subject ");
-        SubjectNameNumber1 = scan.next();
-        ScoreSubject1 = scan.nextInt();
+        System.out.println("Welcome to the Grader!\nPlease enter subject name number 1 and score for this subject");
+        subject1 = s.next();
+        grade1 = s.nextDouble();
 
-        System.out.println("Please enter subject name number 2 and score for this subject ");
-        SubjectNameNumber2 = scan.next();
-        ScoreSubject2 = scan.nextInt();
+        System.out.println("Please enter subject name number 2 and score for this subject");
+        subject2 = s.next();
+        grade2 = s.nextDouble();
 
-        System.out.println("Please enter subject name number 3 and score for this subject ");
-        SubjectNameNumber3 = scan.next();
-        ScoreSubject3 = scan.nextInt();
+        System.out.println("Please enter subject name number 3 and score for this subject");
+        subject3 = s.next();
+        grade3 = s.nextDouble();
 
-        System.out.println("Please enter subject name number 4 and score for this subject ");
-        SubjectNameNumber4 = scan.next();
-        ScoreSubject4 = scan.nextInt();
+        System.out.println("Please enter subject name number 4 and score for this subject");
+        subject4 = s.next();
+        grade4 = s.nextDouble();
 
-        System.out.println("Please enter subject name number 5 and score for this subject ");
-        SubjectNameNumber5 = scan.next();
-        ScoreSubject5 = scan.nextInt();
+        System.out.println("Please enter subject name number 5 and score for this subject");
+        subject5 = s.next();
+        grade5 = s.nextDouble();
 
-        System.out.println("Summary: " + SubjectNameNumber1 + "-" + ScoreSubject1 + "," + SubjectNameNumber2 + "-" + ScoreSubject2 + "," +
-                SubjectNameNumber3 + "-" + ScoreSubject3 + "," + SubjectNameNumber4 + "-" + ScoreSubject4 + "," + SubjectNameNumber5 + "-" + ScoreSubject4 + "\n" +
-                "Your average score is: " + ((ScoreSubject1 + ScoreSubject2 + ScoreSubject3 + ScoreSubject3 + ScoreSubject4 + ScoreSubject5) / 5) + "\n" +
-                "Thank you for using Grader!\n" +
-                "Goodbye!");
+        grade6 = (grade1 + grade2 + grade3 + grade4 + grade5) / 5;
 
-
+        System.out.printf("Summary: %s - %.1f, %s - %.1f, %s - %.1f, %s - %.1f, %s - %.1f\nYour average score is: %.1f\nThank you for using Grader!\nGoodbye!", subject1, grade1, subject2, grade2, subject3, grade3, subject4, grade4, subject5, grade5, grade6);
     }
 }
 
