@@ -2,81 +2,76 @@ import java.util.Scanner;
 
 public class PatientInformation {
     public static void main(String[] args) {
-        //Enter your code here
-        String firstName;
-        String lastName;
-        String fullName;
-        String email;
-        String street;
-        String state;
-        String city;
-        String address;
-        String contacts;
-
-        int age, zipcode;
-        double height, weight = 0;
+         //Enter your code here
+        String firstName,
+                lastName,
+                fullName,
+                email,
+                street,
+                state,
+                city,
+                address,
+                contacts;
+        int age,
+                zipcode;
+        double height,
+                weight;
         boolean isMarried;
-        long workPhoneNumber, personalPhoneNumber;
+        long workPhoneNumber,
+                personalPhoneNumber;
+
         Scanner scan = new Scanner(System.in);
-        System.out.println("Welcome to the patient portal!");
-        System.out.println("Please enter your personal information");
+        System.out.println("Welcome to the patient portal!" + "\nPlease enter your personal information");
         System.out.println("Enter your first name");
         firstName = scan.next();
         System.out.println("Enter your last name");
         lastName = scan.next();
-
         // this part is already provided DO NOT CHANGE
-
         System.out.println("Enter your email");
         email = scan.next();
-
         scan.nextLine();//to capture Enter key press
-
         System.out.println("Enter your street");
         street = scan.nextLine();
-        // continue for
-
+        // continue for city
         System.out.println("Enter your city");
         city = scan.nextLine();
-
         System.out.println("Enter your state");
         state = scan.nextLine();
-
         System.out.println("Enter your zip code");
-        zipcode = Integer.parseInt(scan.nextLine());
-
+        zipcode = scan.nextInt();
         System.out.println("Enter your work phone number");
-        workPhoneNumber = Long.parseLong(scan.nextLine());
-
+        workPhoneNumber = scan.nextLong();
         System.out.println("Enter your personal phone number");
-        personalPhoneNumber = Long.parseLong(scan.nextLine());
-
+        personalPhoneNumber = scan.nextLong();
         System.out.println("Enter your age");
-        age = Integer.parseInt(scan.nextLine());
-
-
+        age = scan.nextInt();
         System.out.println("Enter your height");
-        height = Double.parseDouble(scan.nextLine());
+        height = scan.nextDouble();
 
         System.out.println("Enter your weight");
-        height = Double.parseDouble(scan.nextLine());
-
+        weight = scan.nextDouble();
         System.out.println("Are you married?");
-        isMarried = Boolean.parseBoolean(scan.nextLine());
+        isMarried = scan.nextBoolean();
 
-        contacts = "work phone number - " + workPhoneNumber+ ", personal phone number - " + personalPhoneNumber + ", email: " + email;
-        fullName = lastName+","+" "+firstName ;
-        address = street+"," +" "+city+"," +" "+state +" "+ zipcode;
-
+        contacts = "work phone number - " + workPhoneNumber + ", personal phone number - " + personalPhoneNumber + ",  email: " + email;
+        fullName = "Full name: " + lastName + ", " + firstName;
+        address = "Address: " + street + ", " + city + ", " + state +" " + zipcode;
 
         System.out.println("Patient personal information");
-        System.out.println("Full name: " + fullName);
-        System.out.println("Address: " + address);
+        System.out.println(fullName);
+        System.out.println(address);
         System.out.println("Contacts: " + contacts);
-        System.out.println("Age: "+ age);
-        System.out.println("Height:" + height);
-        System.out.println("Weight:" + weight);
+        System.out.println("Age: " + age);
+        System.out.println("Height: " + height);
+        System.out.println("Weight: " + weight + " pounds");
         System.out.println("Married?: " + isMarried);
+    }
+
+
+
+
+
+
 
         /*
         build contacts variable by concatenating work phone, personal phone and email
@@ -89,7 +84,7 @@ public class PatientInformation {
         */
 
     }
-}
+
 
 
 
