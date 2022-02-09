@@ -1,4 +1,4 @@
-package day14_String;
+package day07_Operators.day14_String;
 
 public class ZPrac1 {
     public static void main(String[] args) {
