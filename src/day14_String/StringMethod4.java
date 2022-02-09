@@ -1,4 +1,4 @@
-package day07_Operators.day14_String;
+package day14_String;
 
 public class StringMethod4 {
 
