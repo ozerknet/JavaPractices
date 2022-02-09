@@ -11,10 +11,10 @@ public class Task1 {
 
         System.out.println(first + second);
 
-
-
-
-
+        String f = first.substring(1);
+        String s = second.substring(1);
+        System.out.println("first word without 1st char = " + f);
+        System.out.println("second word without 1st char = " + s);
 
     }
 }

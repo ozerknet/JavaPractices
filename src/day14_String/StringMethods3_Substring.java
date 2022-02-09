@@ -23,7 +23,7 @@ public class StringMethods3_Substring {
 
         String s2 = word2.substring( word2.indexOf(" ")+1 ,   word2.lastIndexOf(" ") ); //"C#"
 
-        String s3 = word2.substring( word2.lastIndexOf(" ")+1  ); //"Language"
+        String s3 = word2.substring( word2.lastIndexOf(" ")+1  ); //"Language" --> Ruby true
 
         System.out.println(s1);
         System.out.println(s2);
