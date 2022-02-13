@@ -4,6 +4,6 @@ public class T1 {
         int num1 = 2;
         double num2 = 2.63;
         float num3 = 1254522L;
-        
+
     }
 }
