@@ -7,7 +7,6 @@ public class PrintVariable4 {
         String word = new Scanner(System.in).nextLine();
 
         // Write Your code here:
-
         System.out.println("Today's word of the day is: "+word);
     }
 }
