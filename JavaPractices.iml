@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/SoftSkills" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MorePractice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MyTasks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WithLuna" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/taskSolutions/SoftSkills" />
     </content>
     <orderEntry type="inheritedJdk" />
