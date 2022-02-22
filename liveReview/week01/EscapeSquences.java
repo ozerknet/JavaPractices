@@ -1,7 +1,9 @@
 package week01;
 
 public class EscapeSquences {
+
     public static void main(String[] args) {
+
         /*
         \t : tab
         \n: takes it to next line
@@ -16,4 +18,3 @@ public class EscapeSquences {
 
     }
 }
-

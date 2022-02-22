@@ -15,7 +15,7 @@ public class EmployeeInfo {
         String name, companyName, jobTitle;
         name  = "Oscar";
         companyName = "Cydeo";
-        // String jobTitle = "Instructor"; // can NOT double declare, will give compiler error
+       // String jobTitle = "Instructor"; // can NOT double declare, will give compiler error
         jobTitle = "Instructor";
         char gender = 'M';
         int employeeId = 1483;
@@ -23,5 +23,10 @@ public class EmployeeInfo {
         char isMarried = 'Y';
 
         System.out.println("Print all the data we have here");
+
+
+
+
+
     }
 }

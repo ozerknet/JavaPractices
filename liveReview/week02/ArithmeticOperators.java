@@ -2,7 +2,7 @@ package week02;
 
 public class ArithmeticOperators {
     public static void main(String[] args) {
-         /*
+        /*
         Division
         * in math 10/3 = 3.33333
         * in Java 10/3 = 3 reason int/int = int ;
@@ -16,7 +16,7 @@ public class ArithmeticOperators {
         // which operations come first in JAVA
         // paranthesis comes first, division, multiplication is before concatination
 
-        // INPORTANT : JAVA Runs from top to bottom and left to right
+    // INPORTANT : JAVA Runs from top to bottom and left to right
 
         int num1 = 10;
         double num2 = 3.0;

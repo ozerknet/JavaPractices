@@ -3,7 +3,9 @@ package week02;
 import java.util.Scanner;
 
 public class UserInputIntro {
+
     public static void main(String[] args) {
+
         String name = ""; // hard coded way
         // output goes to console --- print or println
         System.out.println("Output");
@@ -11,7 +13,7 @@ public class UserInputIntro {
         // How can I receive input for my JAVA class
 
         // 1. create your scanner object (object name can be anything)
-        Scanner input = new Scanner(System.in);  // you don't see anything // Alt + Enter for ( import java.util.Scanner )
+        Scanner input = new Scanner(System.in);  // you don't see anything
 
         // 2. prompt the user for putting input
         System.out.println("Put your name : ");  // this is printed out to console
@@ -28,7 +30,7 @@ public class UserInputIntro {
         // we need to import scanner class from JAVA utilities
         // import java.util.Scanner; you put this statement at the top of your page before class
 
-        //    input.nextDouble() = double data type input.nextInt() = integer data type
+    //    input.nextDouble() = double data type input.nextInt() = integer data type
         // nextLine() is used for more than one words
     }
 }

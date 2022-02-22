@@ -2,12 +2,15 @@ package week02;
 
 public class PrimitivesExample {
     public static void main(String[] args) {
-        /*
+
+/*
         DataType variableName = Value; Declare and initialize at the same line
+
         DataType variableName;
         variableName = value;
+
         DataType variableNameOne, variableNameTwo;
-        */
+ */
 
         byte num1; // Declaring a variable
         num1 = 123; // Initializing a variable , assigning a value
@@ -41,4 +44,5 @@ public class PrimitivesExample {
         short rateTwo = (short) rate;
         System.out.println("rateTwo = " + rateTwo);
     }
+
 }

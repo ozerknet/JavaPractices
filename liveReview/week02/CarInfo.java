@@ -2,6 +2,7 @@ package week02;
 
 public class CarInfo {
     public static void main(String[] args) {
+
         // I want you to give example of the car that you will buy after you find a well payed job
         int year = 2022;
         String make = "Audi";
