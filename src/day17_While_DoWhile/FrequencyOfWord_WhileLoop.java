@@ -18,7 +18,7 @@ public class FrequencyOfWord_WhileLoop {
 
         System.out.println("------------------------------------");
 
-        String sentence = "cat cat dog dog";
+        String sentence = "cat cat dog cat dog cat cat cat CAT CAT";
                 //" cat dog dog"
                 //" dog dog"
         sentence = sentence.toLowerCase();
