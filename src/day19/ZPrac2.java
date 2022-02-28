@@ -9,7 +9,7 @@ public class ZPrac2 {
             if( i == 3){
 //                break;
 //                continue;
-                System.exit(0);
+//                System.exit(0);
             }
 
             System.out.println(i);
