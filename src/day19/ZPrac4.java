@@ -26,7 +26,7 @@ public class ZPrac4 {
 
         if (a.equalsIgnoreCase("no")) {
             System.out.println("Thank you!");
-            
+
 
         }
     }
