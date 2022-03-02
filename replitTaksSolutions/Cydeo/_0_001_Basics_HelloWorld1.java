@@ -5,5 +5,4 @@ public class _0_001_Basics_HelloWorld1 {
 
         System.out.println("Hello world");
     }
-
 }
