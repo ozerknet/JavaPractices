@@ -1,4 +1,4 @@
-package day20_Arrays;
+package day06_PrimitiveTypeCastings.day20_Arrays;
 
 import java.util.Arrays;
 
@@ -27,6 +27,8 @@ public class Alphabet {
 */
 
      //   System.out.println( alphabets );
+        Arrays.sort(alphabets);
+
         System.out.println( Arrays.toString(alphabets) ); // print the whole array
  //       System.out.println( alphabets[0] ); // printing the element of array
 

@@ -1,4 +1,4 @@
-package day20_Arrays;
+package day06_PrimitiveTypeCastings.day20_Arrays;
 
 import java.util.Arrays;
 

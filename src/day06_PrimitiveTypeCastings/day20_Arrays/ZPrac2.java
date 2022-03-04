@@ -1,4 +1,4 @@
-package day20_Arrays;
+package day06_PrimitiveTypeCastings.day20_Arrays;
 
 public class ZPrac2 {
     public static void main(String[] args) {
