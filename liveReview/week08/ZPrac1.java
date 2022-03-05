@@ -22,6 +22,8 @@ public class ZPrac1 {
         String out1 = Arrays.toString(words);
         System.out.println(out1);
 
+        String[] responseTypes = new String[]{"OK","Created","No Content","Bad Request","Unauthorized","Forbidden","Not Found","Internal Server Error"};
+
 
 
     }
