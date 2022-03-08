@@ -5,7 +5,7 @@ public class ReturnStatement2 {
 
     public static void main(String[] args) {
 
-        nameOfMonth(30);
+        nameOfMonth(12);
 
     }
 

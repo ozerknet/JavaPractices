@@ -28,10 +28,7 @@ public class ReturnMethodsPractice2 {
             System.out.println("Try again1");
         }
 
-
     }
-
-
 
     public static String grade(int score){
 

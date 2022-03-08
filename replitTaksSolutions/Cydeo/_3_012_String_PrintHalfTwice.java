@@ -40,3 +40,23 @@ public class _3_012_String_PrintHalfTwice {
         System.out.println(tmp);
     }
 }
+/*
+Write a program that will print out first half of the word twice.
+
+Example:
+
+input: java
+
+output: jaja
+
+
+input: java
+
+output: jaja
+
+input: unity
+
+output: unun
+
+
+*/

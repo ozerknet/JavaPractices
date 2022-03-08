@@ -33,3 +33,17 @@ public class _3_013_String_PrintTheLongestWord {
 
     }
 }
+/*
+Write a program that will print out the longest word.
+
+Note: Assume the length of the two given Strings will be different
+
+input:
+bill
+check
+input:
+bill
+check
+output: check
+*
+**/
