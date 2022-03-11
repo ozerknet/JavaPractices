@@ -34,6 +34,8 @@ public class _5_023_Arrays_SplitEmail {
         Scanner input = new Scanner(System.in);
         String email = input.nextLine();
 
+        Boolean test = email.indexOf("@") == -1 ;
+        System.out.println("test = " + test);
         //Write your code below
 
         if(email.indexOf("@") == -1 || email.indexOf("@") != email.lastIndexOf("@"))

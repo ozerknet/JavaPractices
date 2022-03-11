@@ -42,8 +42,10 @@ public class _4_002_Loops_Party {
             System.out.println("Do you want to enter new guest name:");
             reply=input.nextLine();
         }
+
         while(reply.equals("yes"));
 
         System.out.println("Guest's list: " + guests.substring(0,guests.length()-2));
+        System.out.println(reply.equals("yes"));
     }
 }

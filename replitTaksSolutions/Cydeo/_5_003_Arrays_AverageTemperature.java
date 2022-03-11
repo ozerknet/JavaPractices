@@ -9,6 +9,7 @@
 //        output: 78.5
 //        ```
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class _5_003_Arrays_AverageTemperature {
@@ -17,6 +18,7 @@ public class _5_003_Arrays_AverageTemperature {
         double[] temps = { scan.nextDouble(), scan.nextDouble(), scan.nextDouble(), scan.nextDouble(),
                 scan.nextDouble(), scan.nextDouble(), scan.nextDouble() , scan.nextDouble()  };
 
+        System.out.println(Arrays.toString(temps));
         // Do not touch above. Use array temps
         double total=0.0;
 
