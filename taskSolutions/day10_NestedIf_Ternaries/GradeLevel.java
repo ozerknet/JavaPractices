@@ -1,26 +1,49 @@
-package day10_Task;
+package day10_NestedIf_Ternaries;
 
 public class GradeLevel {
+
     public static void main(String[] args) {
-        int level = 15;
+        byte number = 15;
+        String gradeLevel = "";
 
-        if (level >= 1 && level <= 18) { // if level is valid
+        boolean validNumber = number >= 1 && number <= 18;
 
-            if (level <= 5) { // if student Elementary school
-                System.out.println("Elementary school");
-            } else if (level <= 8) { // if the student Middle school
-                System.out.println("Middle school");
-            } else if (level <= 12) { // if the student High school
-                System.out.println("High school");
-            } else if (level <= 16) { // if the student College
-                System.out.println("College");
-            } else { // if the student Grad School
-                System.out.println("Grad School");
+        if(validNumber){ // 1 ~ 18
+
+            if(number >= 17){
+                gradeLevel = "Grad School";
+            }else if(number >= 13 ){
+                gradeLevel = "College";
+            }else if(number >= 9 ){
+                gradeLevel = "High School";
+            }else if(number >= 6 ){
+                gradeLevel = "Middle School";
+            }else if(number >= 1 ){
+                gradeLevel = "Elementary School";
             }
-        } else { //if the score is not valid
 
-            System.out.println("Invalid grade level given");
-
+        }else{
+           gradeLevel = "Invalid Grade Level";
         }
+
+
+        System.out.println(gradeLevel);
+
     }
+
 }
+
+/*
+1. Create a class called GradeLevel, Given a number(byte) grade level determine and
+print which school type someone is in.
+            grade level and types are:
+                    1-5: Elementary school
+                    6-8: Middle school
+                    9-12: High school
+                    13-16: College
+                    17-18: Grad School
+
+                    For Any Other grade: Invalid grade level given
+
+            NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+ */

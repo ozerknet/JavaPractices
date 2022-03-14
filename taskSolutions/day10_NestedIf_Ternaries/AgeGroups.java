@@ -1,22 +1,31 @@
-package day10_Task;
+package day10_NestedIf_Ternaries;
 
 public class AgeGroups {
+
     public static void main(String[] args) {
-        /*Teenager (< 21)
-                    Adult   (>=21 && <55 )
-                    Senior  ( >= 55 )
-                    */
-        int age = 0;
-        if (age >= 0 && age <= 150) {
-            if (age < 21) {
-                System.out.println("Teenager");
-            } else if (age >= 21 && age < 55) {
-                System.out.println("Adult");
-            } else if (age >= 55) {
-                System.out.println("Adult");
+
+        int age = 75;
+
+        boolean valid = age >= 0 && age <= 150;
+
+        String result = "";
+
+        if(valid){
+
+            if(age >= 55){
+                result = "Senior";
+            }else if(age >= 21){
+                result = "Adult";
+            }else{
+                result = "Teenager";
             }
-        } else {
-            System.out.println("invalid");
+
+        }else{
+            result = "Invalid";
         }
+
+        System.out.println(result);
+
     }
+
 }

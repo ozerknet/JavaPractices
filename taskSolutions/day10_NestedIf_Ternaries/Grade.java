@@ -1,26 +1,48 @@
-package day10_Task;
+package day10_NestedIf_Ternaries;
 
 public class Grade {
+
     public static void main(String[] args) {
-        char grade = 'G';
-        if (grade >= 'A' || grade >= 'B' || grade >= 'C' || grade >= 'D' || grade >= 'F') { // if grade is valid
 
-            if (grade == 'A') { // if grade is A
-                System.out.println("excellent");
-            } else if (grade == 'B') { // if grade is B
-                System.out.println("great job");
-            } else if (grade == 'C') { // if grade is C
-                System.out.println("good");
-            } else if (grade == 'D') { // if grade is D
-                System.out.println("passed");
-            } else if (grade == 'F') { // if grade is F
-                System.out.println("failed");
+        char grade = 'A';
 
-            } else { //if
+        boolean validGrade = (grade >= 'A' && grade <= 'D') || grade == 'F';
 
-                System.out.println("invalid ");
+        String result = "";
 
+        if(validGrade){
+
+            if(grade == 'A'){
+                result = "Excellent";
+            } else if (grade == 'B') {
+                result = "Great Job";
+            }else if (grade == 'C') {
+                result = "Good";
+            }else if (grade == 'D') {
+                result = "Passed";
+            }else{
+                result = "Failed";
             }
+
+        }else{
+            result = "Invalid Grade";
         }
+
+        System.out.println(grade);
+
+
     }
+
 }
+
+/*
+3. Create a class called Grade, a char variable named grade is given. write a program to print the following messages:
+            'A': excellent
+            'B': great job
+            'C': good
+            'D': passed
+            'F': failed
+            other wise: invalid
+
+            NOTE: MUST USE NESTED IF. DO NOT USE MORE THAN ONE PRINT STATEMENT
+ */
