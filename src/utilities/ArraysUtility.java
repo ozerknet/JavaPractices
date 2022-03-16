@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class ArraysUtility {
 
+    //-----------------------------------------------------------------------------------------------------------------------
     //prints each integer of an integer array in separate lines
     public static void printEachElement(int[] array){
         for (int each : array) {
@@ -35,6 +36,7 @@ public class ArraysUtility {
         }
     }
 
+    //-----------------------------------------------------------------------------------------------------------------------
 
     //returns the maximum number from integer array
     public static int max(int[] numbers){
@@ -49,7 +51,7 @@ public class ArraysUtility {
         return numbers[numbers.length-1];
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     //returns the minimum number from integer array
     public static int min(int[] numbers){
@@ -64,7 +66,7 @@ public class ArraysUtility {
         return numbers[0];
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     //checks if the given integer is contained in the given array. returns boolean.  contains(int[], int)
     public static boolean contains(int[] array, int element){
@@ -125,6 +127,7 @@ public class ArraysUtility {
         return result;
     }
 
+    //-----------------------------------------------------------------------------------------------------------------------
 
 
     // adds the given element to array, returns a new array
@@ -192,6 +195,7 @@ public class ArraysUtility {
 
     }
 
+    //-----------------------------------------------------------------------------------------------------------------------
 
     //returns the frequency of the given element from the given array
     public static int frequencyOfElement(int[] array, int element){
@@ -244,7 +248,7 @@ public class ArraysUtility {
         return count;
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     // returns the unique elements of the array as a new array
     public static int[] uniqueElements(int[] array){
@@ -309,7 +313,7 @@ public class ArraysUtility {
         return result;
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     //removes the index from the array, returns new array
     public static int[] removeElement(int[] array, int index){
@@ -398,7 +402,7 @@ public class ArraysUtility {
         return result;
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     // merge the given two arrays and returns the new array
     public static int[] merge(int[] arr1, int[] arr2){
@@ -466,6 +470,7 @@ public class ArraysUtility {
         return result;
     }
 
+    //-----------------------------------------------------------------------------------------------------------------------
 
 
     //reverses the given array, returns a new array
@@ -519,7 +524,7 @@ public class ArraysUtility {
         return result;
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     //replace the elements of the array at given index with the new element
     public static int[] replace(int[] array, int index, int newElement){
@@ -572,6 +577,8 @@ public class ArraysUtility {
         return array;
     }
 
+
+    //-----------------------------------------------------------------------------------------------------------------------
 
     // replaces all the matching old values of the array with the new value
     public static int[] replaceAll(int[] array, int oldValue, int newValue) {
@@ -636,7 +643,7 @@ public class ArraysUtility {
 
     }
 
-
+//-----------------------------------------------------------------------------------------------------------------------
 
     //removes the duplicates from the given array, returns the new array
     public static int[] removeDuplicates(int[] array){

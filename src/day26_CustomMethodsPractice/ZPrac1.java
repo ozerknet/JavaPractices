@@ -1,0 +1,27 @@
+package day26_CustomMethodsPractice;
+
+public class ZPrac1 {
+    public static void main(String[] args) {
+        int[] arr = {1, 1, 1, 11, 1, 2, 2, 3, 3, 3, 4, 4, 1, 1, 1, 1};
+
+        int n = frequencyOfElement(arr, 1);
+
+        System.out.println(n);
+
+
+    }
+    public static int frequencyOfElement(int[] array, int element){
+        int count = 0;
+        for (int each : array) {
+            if(each == element){
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+}
+
+
+
