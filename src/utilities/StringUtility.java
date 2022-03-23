@@ -4,12 +4,6 @@ import java.util.Arrays;
 
 public class StringUtility {
 
-    public static void main(String[] args) {
-        String name = "Ozer";
-        printEachChar(name);
-        System.out.println(reverse(name));
-    }
-
 
     //prints each character of the given string
     public static void printEachChar(String str){
@@ -18,12 +12,6 @@ public class StringUtility {
             System.out.println(str.charAt(i));
         }
 
-    }
-    // Make a line method
-    public static String myLine(){
-        String result = "------------------------------------------------------------";
-        System.out.println(result);
-        return result;
     }
 
 
