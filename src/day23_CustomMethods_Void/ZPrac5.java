@@ -4,16 +4,29 @@ public class ZPrac5 {
     public static void main(String[] args) {
 
 
-        printNumber(0,10);
+        printNumber(20, 15);
 
 
     }
 
     public static void printNumber(int x, int y) {
 
-        if(x>y){
-            System.out.println();
+        boolean xBig = x>y;
+        boolean yBig = y>x;
+
+        if(!xBig){
+            for (int i = x; i <= y; i++) {
+                System.out.println(i);
+            }
+
         }
+        if(!yBig){
+            for (int i = y; i <= x; i++) {
+                System.out.println(i);
+            }
+
+        }
+
 
     }
 }
