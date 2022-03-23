@@ -14,7 +14,7 @@ public class ZPrac2 {
         Boolean isItPandrome = StringUtility.isPalindrome(str);
         System.out.println(str + " is It Pandrome ? = " + isItPandrome);
 
-        StringUtility.myLine();
+        //StringUtility.myLine();
 
         StringUtility.removeDuplicates(str);
 
