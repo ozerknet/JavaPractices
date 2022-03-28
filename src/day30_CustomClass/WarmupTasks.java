@@ -65,7 +65,7 @@ public class WarmupTasks {
         System.out.println(result);
 
 
-        System.out.println("-----------------------------------------------------------");
+        System.out.println("---------------- Letters Digits SpecialChar -------------------------------------------");
 
         String str = "ABCD123$%#@&456EFG!";
 
