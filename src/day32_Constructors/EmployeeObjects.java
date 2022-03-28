@@ -10,12 +10,15 @@ public class EmployeeObjects {
 
         Employee employee3 = new Employee("Olga", 'F', "SDET");
 
+        Employee employee4 = new Employee("Ozer");
 
         System.out.println(employee1);
 
         System.out.println(employee2);
 
         System.out.println(employee3);
+
+        System.out.println(employee4);
 
     }
 

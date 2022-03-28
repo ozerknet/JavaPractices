@@ -9,13 +9,13 @@ public class ConstructorCalls {
 
     public ConstructorCalls(int a){
         this(); // Default Constructor
-        System.out.println("Constructor with int argument");
+        System.out.println("Constructor with int argument --> " + a);
     }
 
 
     public ConstructorCalls(String str){
         this(10); //Default Constructor ,  Constructor with int argument
-        System.out.println("Constructor with String argument");
+        System.out.println("Constructor with String argument --> "+ str);
     }
 
 
