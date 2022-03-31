@@ -17,11 +17,18 @@ public class Test {
         // find the sum of 10, 20
         int r1 = sum(10, 20);
 
+        System.out.println("r1 = " + r1);
+
         // find the sum of 100, 200
         int r2 = sum(100, 200);
 
+        System.out.println("r2 = " + r2);
 
-        int r3 = subtract(100,50);
+        double subtr = subtract(10.2, 63.5);
+        System.out.println("subtr = " + subtr);
+
+
+        int r3 = subtract(100, 50);
 
         int r4 = max(1000, 2000);
 
