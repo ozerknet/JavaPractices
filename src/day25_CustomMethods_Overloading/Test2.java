@@ -1,6 +1,6 @@
 package day25_CustomMethods_Overloading;
 
-import utilities.ArraysUtility;
+import day23_CustomMethods_Void.utilities.ArraysUtility;
 
 public class Test2 {
 

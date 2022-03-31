@@ -1,6 +1,6 @@
 package day27_WrapperClasses;
 
-import utilities.ArraysUtility;
+import day23_CustomMethods_Void.utilities.ArraysUtility;
 
 import java.util.Arrays;
 

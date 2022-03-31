@@ -1,4 +1,4 @@
-package utilities;
+package day23_CustomMethods_Void.utilities;
 
 public class MathUtility {
 

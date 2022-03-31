@@ -1,6 +1,6 @@
 package day26_CustomMethodsPractice;
 
-import utilities.ArraysUtility;
+import day23_CustomMethods_Void.utilities.ArraysUtility;
 
 public class ReverseArray2 {
 
