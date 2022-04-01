@@ -1,6 +1,6 @@
 package day29_ArrayList;
 
-import day23_CustomMethods_Void.utilities.StringUtility;
+import utilities.StringUtility;
 
 import java.util.ArrayList;
 import java.util.Arrays;

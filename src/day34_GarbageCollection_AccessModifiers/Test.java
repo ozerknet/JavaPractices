@@ -2,7 +2,7 @@ package day34_GarbageCollection_AccessModifiers;
 
 
 import static day34_GarbageCollection_AccessModifiers.Circle.*;
-import static day23_CustomMethods_Void.utilities.MathUtility.*;
+import static utilities.MathUtility.*;
 
 public class Test {
 
