@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package day35_Encapsulation.scrumTask;
 
 public class ScrumMaster extends Employee {
 

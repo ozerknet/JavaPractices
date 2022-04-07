@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package day35_Encapsulation.scrumTask;
 
 public class Employee extends Person{  // Employee IS A Person
 

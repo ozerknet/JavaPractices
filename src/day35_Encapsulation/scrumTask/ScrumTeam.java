@@ -1,4 +1,4 @@
-package day37_Inheritance.scrumTask;
+package day35_Encapsulation.scrumTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;
