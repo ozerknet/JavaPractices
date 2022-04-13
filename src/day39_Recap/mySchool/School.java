@@ -8,7 +8,7 @@ public class School {
         System.out.println(ozer);
 
         System.out.println("------------- Teacher ----------------------");
-        Teacher mike = new Teacher("Ahmet","Ver",45,'M',145,"Teacher",45000);
+       Teacher mike = new Teacher("Mike","Al",48,'M',41,"Teacher",41000);
         System.out.println(mike);
 
         System.out.println("------------- Student ----------------------");
