@@ -1,7 +1,7 @@
 package day39_Recap.mySchool;
 
 public class Manager extends Employee {
-    public Manager(String name, String surName, int age, char gender, String employeeId, String jobTitle, int salary) {
+    public Manager(String name, String surName, int age, char gender, int employeeId, String jobTitle, int salary) {
         super(name, surName, age, gender, employeeId, jobTitle, salary);
     }
 

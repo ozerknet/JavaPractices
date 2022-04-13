@@ -1,22 +1,22 @@
 package day39_Recap.mySchool;
 
 public class Employee extends Person {
-    private String employeeId;
+    private int employeeId;
     private String jobTitle;
     private int salary;
 
-    public Employee(String name, String surName, int age, char gender, String employeeId, String jobTitle, int salary) {
+    public Employee(String name, String surName, int age, char gender, int employeeId, String jobTitle, int salary) {
         super(name, surName, age, gender);
         setEmployeeId(employeeId);
         setJobTitle(jobTitle);
         setSalary(salary);
     }
 
-    public String getEmployeeId() {
+    public int getEmployeeId() {
         return employeeId;
     }
 
-    public void setEmployeeId(String employeeId) {
+    public void setEmployeeId(int employeeId) {
         this.employeeId = employeeId;
     }
 
