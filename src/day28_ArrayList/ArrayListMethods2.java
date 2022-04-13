@@ -1,4 +1,4 @@
-package day37_Inheritance.day28_ArrayList;
+package day28_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;

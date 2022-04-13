@@ -8,8 +8,8 @@ public class ShapeObjects {
 
         System.out.println(square);
 
-       // square.side = -10000000;
-        square.setSide( 15 );
+        // square.side = -10000000;
+        square.setSide(15);
 
         System.out.println(square);
 
@@ -23,9 +23,10 @@ public class ShapeObjects {
 
         rectangle.setLength(10);
 
-        System.out.println( rectangle.getLength() );
 
-        System.out.println( rectangle);
+        System.out.println(rectangle.getLength());
+
+        System.out.println(rectangle);
 
         System.out.println(rectangle.getName());
 
@@ -39,15 +40,11 @@ public class ShapeObjects {
 
         circle.setRadius(15.5);
 
-        System.out.println( circle.getRadius() );
+        System.out.println(circle.getRadius());
 
         System.out.println(circle);
 
         System.out.println(circle.getName());
-
-
-
-
 
 
     }
