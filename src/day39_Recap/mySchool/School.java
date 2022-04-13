@@ -14,5 +14,10 @@ public class School {
         System.out.println("------------- Student ----------------------");
         Student ayse = new Student("Ayse","Kal",25,'F',412,"Birds",9);
         System.out.println(ayse);
+
+
+        ozer.fixingProblems();
+        ozer.work();
+
     }
 }
