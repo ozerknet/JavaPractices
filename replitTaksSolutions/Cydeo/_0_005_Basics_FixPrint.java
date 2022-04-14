@@ -1,3 +1,5 @@
+package Cydeo;
+
 //Rearrange the following code so that
 // it forms a correct program that prints out the letter Q
 public class _0_005_Basics_FixPrint {

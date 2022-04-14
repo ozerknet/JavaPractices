@@ -1,4 +1,4 @@
-//In this assignment, you will write code to put together time of day.
+package Cydeo;//In this assignment, you will write code to put together time of day.
 //
 //        Like this: 12:24:33 PM
 //

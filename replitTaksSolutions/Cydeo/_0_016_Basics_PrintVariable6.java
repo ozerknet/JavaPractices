@@ -1,4 +1,4 @@
-//Five friends are going to the theater. They have purchased a row of five seats with an aisle on either end.
+package Cydeo;//Five friends are going to the theater. They have purchased a row of five seats with an aisle on either end.
 //
 //        5 String variables are already declared to stored their names.
 //

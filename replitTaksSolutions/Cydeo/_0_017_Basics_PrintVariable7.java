@@ -1,4 +1,4 @@
-//2 String variables are already declared and assigned values.
+package Cydeo;//2 String variables are already declared and assigned values.
 //
 //        They will hold different topics we will learn.
 //

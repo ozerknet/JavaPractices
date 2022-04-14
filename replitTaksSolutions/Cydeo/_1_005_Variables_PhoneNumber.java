@@ -1,4 +1,4 @@
-//Write a program that asks user to input int values: areaCode and localNumber.
+package Cydeo;//Write a program that asks user to input int values: areaCode and localNumber.
 //
 //        Using concatenation put together in this format and assign to String phoneNumber variable:
 //        (222)-3334444

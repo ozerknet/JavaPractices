@@ -1,4 +1,4 @@
-//Given a String variable word assume the variable has a value and use it to display the word of the day.
+package Cydeo;//Given a String variable word assume the variable has a value and use it to display the word of the day.
 //
 //        Ex: Input: Java
 //

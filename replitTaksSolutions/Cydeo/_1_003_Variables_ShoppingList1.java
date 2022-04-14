@@ -1,4 +1,4 @@
-//In this assignment you will write a program to create a shopping list and prices.
+package Cydeo;//In this assignment you will write a program to create a shopping list and prices.
 //
 //        You will use Scanner object and ask user to enter 3 items followed by its price and you will calculate total price and show as a report.
 //
