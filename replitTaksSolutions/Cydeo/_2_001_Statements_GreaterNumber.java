@@ -1,4 +1,4 @@
-//Use an if statement to determine if a or b is bigger. Then print:
+package Cydeo;//Use an if statement to determine if a or b is bigger. Then print:
 //
 //        $number is greater
 //

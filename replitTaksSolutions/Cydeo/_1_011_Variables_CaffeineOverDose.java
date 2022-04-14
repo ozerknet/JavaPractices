@@ -1,4 +1,4 @@
-//Scientists estimate that roughly 10 grams of caffeine consumed at one time is a lethal overdose.
+package Cydeo;//Scientists estimate that roughly 10 grams of caffeine consumed at one time is a lethal overdose.
 //Write a program with a variable that holds the number of mgs of caffeine in a drink and outputs
 //how many drinks it takes to kill a person.
 //

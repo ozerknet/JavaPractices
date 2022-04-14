@@ -1,3 +1,5 @@
+package Cydeo;
+
 import java.util.Scanner;
 
 //You have two numbers already declared and assigned values.

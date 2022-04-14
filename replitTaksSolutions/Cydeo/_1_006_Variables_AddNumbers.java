@@ -1,4 +1,4 @@
-//In this assignment you will create a Scanner object and ask user to enter 3 number inputs.
+package Cydeo;//In this assignment you will create a Scanner object and ask user to enter 3 number inputs.
 //
 //        Declare integer variables num1, num2, num3, sum.
 //

@@ -1,4 +1,4 @@
-//Declare 9 String variables firstName, lastName, fullName, email, street, state, city, address, contacts.
+package Cydeo;//Declare 9 String variables firstName, lastName, fullName, email, street, state, city, address, contacts.
 //
 //        Declare 2 `int` variables: `age`, `zipcode`
 //        Declare 2 `double` variables: `height`, `weight`.
