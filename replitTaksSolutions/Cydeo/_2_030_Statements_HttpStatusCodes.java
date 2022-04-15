@@ -1,4 +1,4 @@
-//HTTP is the protocol that governs communications between servers and web clients (i.e. browsers). Part of the protocol includes a **status code** returned by the server to tell the browser the status of its most recent page request. Some of the codes and their meanings are listed below:
+package Cydeo;//HTTP is the protocol that governs communications between servers and web clients (i.e. browsers). Part of the protocol includes a **status code** returned by the server to tell the browser the status of its most recent page request. Some of the codes and their meanings are listed below:
 //
 //
 //

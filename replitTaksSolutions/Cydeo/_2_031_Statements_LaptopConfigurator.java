@@ -1,4 +1,4 @@
-//Write a program that will calculate laptop price based on the components.
+package Cydeo;//Write a program that will calculate laptop price based on the components.
 //
 //        First ask user for a screen size.
 //        - If screen size is equals to 13.3, add  $200 to the laptop price.
@@ -64,76 +64,60 @@ import java.util.Scanner;
 public class _2_031_Statements_LaptopConfigurator {
     public static void main(String[] args) {
 
-        Scanner scan=new Scanner(System.in).useLocale(Locale.US);
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
         String screenSize, cpuType, storageType, screenResolution;
         int ramSize, memorySize;
-        double price=0;
+        double price = 0;
 
         System.out.println("Select screen size:");
-        screenSize=scan.nextLine();
-        if(screenSize.equals("13.3"))
-        {
-            price+=200;
-        }
-        else if(screenSize.equals("15.0"))
-        {
-            price+=300;
-        }
-        else if(screenSize.equals("17.3"))
-        {
-            price+=400;
+        screenSize = scan.nextLine();
+        if (screenSize.equals("13.3")) {
+            price += 200;
+        } else if (screenSize.equals("15.0")) {
+            price += 300;
+        } else if (screenSize.equals("17.3")) {
+            price += 400;
         }
 
         System.out.println("Select CPU type:");
-        cpuType=scan.nextLine();
-        if(cpuType.equals("i3"))
-        {
-            price+=150;
-        }
-        else if(cpuType.equals("i5"))
-        {
-            price+=250;
-        }
-        else if(cpuType.equals("i7"))
-        {
-            price+=350;
+        cpuType = scan.nextLine();
+        if (cpuType.equals("i3")) {
+            price += 150;
+        } else if (cpuType.equals("i5")) {
+            price += 250;
+        } else if (cpuType.equals("i7")) {
+            price += 350;
         }
 
         System.out.println("Select RAM size:");
-        ramSize=scan.nextInt();
-        price+=(ramSize/4)*50;
+        ramSize = scan.nextInt();
+        price += (ramSize / 4) * 50;
 
         scan.nextLine();
 
         System.out.println("Select storage type:");
-        storageType=scan.nextLine();
+        storageType = scan.nextLine();
 
         System.out.println("Enter memory size:");
-        memorySize=scan.nextInt();
+        memorySize = scan.nextInt();
 
-        if(storageType.equals("HDD"))
-        {
-            price+=(memorySize/500)*50;
-        }
-        else if(storageType.equals("SSD"))
-        {
-            price+=(memorySize/500)*100;
+        if (storageType.equals("HDD")) {
+            price += (memorySize / 500) * 50;
+        } else if (storageType.equals("SSD")) {
+            price += (memorySize / 500) * 100;
         }
 
         scan.nextLine();
 
         System.out.println("Enter screen resolution:");
-        screenResolution=scan.nextLine();
-        if(screenResolution.equals("FULLHD"))
-        {
-            price+=100;
-        }
-        else if(screenResolution.equals("4K"))
-        {
-            price+=200;
+        screenResolution = scan.nextLine();
+        if (screenResolution.equals("FULLHD")) {
+            price += 100;
+        } else if (screenResolution.equals("4K")) {
+            price += 200;
         }
 
-        System.out.println("Laptop price is: $"+price);
+        System.out.println("Laptop price is: $" + price);
 
 
     }

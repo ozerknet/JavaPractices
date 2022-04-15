@@ -1,4 +1,4 @@
-//In blackjack after the player asks to keep the house 4 things may happen.
+package Cydeo;//In blackjack after the player asks to keep the house 4 things may happen.
 //
 //        1. if the card total is bigger then 21 the player busts.
 //

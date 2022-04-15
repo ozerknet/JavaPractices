@@ -1,4 +1,4 @@
-//Android is one of the best operating systems in the world that helps the billion of users who use smart phones and tablets. Also, Android versions always had some funny names related to sweets. In this assignment, you need to write a program that will print a name of Android version, based on number. Please refer to the link beneath, in order to develop your if statement.
+package Cydeo;//Android is one of the best operating systems in the world that helps the billion of users who use smart phones and tablets. Also, Android versions always had some funny names related to sweets. In this assignment, you need to write a program that will print a name of Android version, based on number. Please refer to the link beneath, in order to develop your if statement.
 //        https://www.javatpoint.com/android-versions
 //
 //        1. Create an object of **_Scanner_** class named **_scanner. (DONE)_**
