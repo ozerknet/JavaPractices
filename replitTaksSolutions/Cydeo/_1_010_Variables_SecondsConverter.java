@@ -1,4 +1,4 @@
-//Write a program that outputs the number of hours, minutes, and seconds that
+package Cydeo;//Write a program that outputs the number of hours, minutes, and seconds that
 //        corresponds to input total `seconds`.
 //
 //        - Create a Scanner object

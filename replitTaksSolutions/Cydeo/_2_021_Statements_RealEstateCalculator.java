@@ -1,4 +1,4 @@
-//This program should work with 3 house types:
+package Cydeo;//This program should work with 3 house types:
 //
 //        -  Condo, Townhouse and Single Family Home.
 //        >  Starting price for Condo = 50000,

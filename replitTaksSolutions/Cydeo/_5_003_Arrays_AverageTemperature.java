@@ -1,4 +1,4 @@
-//Given an array **temps** with temperature values find and print the average value
+package Cydeo;//Given an array **temps** with temperature values find and print the average value
 //
 //
 //        Example:

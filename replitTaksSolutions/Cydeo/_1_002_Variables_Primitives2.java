@@ -1,3 +1,5 @@
+package Cydeo;
+
 //Declare an byte variable named steps and assign 100
 //
 //        Declare an short variable named miles and assign 5000

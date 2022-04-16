@@ -1,4 +1,4 @@
-//Write a program that takes the **grade** int and prints if it's a passing grade or failure.
+package Cydeo;//Write a program that takes the **grade** int and prints if it's a passing grade or failure.
 //
 //        - if grade is bigger than 90 output "excellent"
 //        - if the grade is bigger than 70 and smaller then 90 output "good"

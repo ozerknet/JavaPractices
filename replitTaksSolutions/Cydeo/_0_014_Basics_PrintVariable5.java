@@ -1,4 +1,4 @@
-//Given two variables first and second with values, write a statement that will print the values in a single line.
+package Cydeo;//Given two variables first and second with values, write a statement that will print the values in a single line.
 //
 //        Ex:
 //

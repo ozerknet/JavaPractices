@@ -1,4 +1,4 @@
-//Write a program that displays: I think being a programmer is cool
+package Cydeo;//Write a program that displays: I think being a programmer is cool
 
 public class _0_006_Basics_Cool {
     public static void main(String[] args) {

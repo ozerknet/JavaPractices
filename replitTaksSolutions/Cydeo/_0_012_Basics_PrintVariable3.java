@@ -1,4 +1,4 @@
-//Given two variables num and cost that have been declared and given values, write a statement to print the values.
+package Cydeo;//Given two variables num and cost that have been declared and given values, write a statement to print the values.
 //
 //        Ex:
 //

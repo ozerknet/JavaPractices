@@ -1,4 +1,4 @@
-//Write a program that will verify if the **sentence** contains **word**.
+package Cydeo;//Write a program that will verify if the **sentence** contains **word**.
 // Print out the result as a boolean value.
 
 import java.util.Scanner;

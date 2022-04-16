@@ -1,4 +1,4 @@
-//Declare an integer variable named degreesCelsius but do not assign any value
+package Cydeo;//Declare an integer variable named degreesCelsius but do not assign any value
 //
 //        Nothing else. Yes, its that simple!
 

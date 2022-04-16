@@ -1,4 +1,4 @@
-//Write program for Leasing office.
+package Cydeo;//Write program for Leasing office.
 //
 //        numberOfBedrooms variable already declared and assigned value using Scanner:
 //

@@ -1,4 +1,4 @@
-//### Similar to Vending Machine
+package Cydeo;//### Similar to Vending Machine
 //
 //
 //
@@ -59,6 +59,8 @@ public class _2_007_Statements_GiftCard {
         int giftcard=100;
 
         //WRITE YOUR CODE HERE
+
+        System.out.println("Please choose your gift--> Please write --> Blanket or Charger or Hat or Headphones ");
         switch(item)
         {
             case "Blanket":

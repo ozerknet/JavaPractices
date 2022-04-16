@@ -1,4 +1,4 @@
-//Given a String variable message write a statement to disply its value
+package Cydeo;//Given a String variable message write a statement to disply its value
 
 public class _0_011_Basics_PrintVariable2 {
     public static void main(String[] args) {

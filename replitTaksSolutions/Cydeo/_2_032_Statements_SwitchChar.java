@@ -1,4 +1,4 @@
-//Write a switch statement that tests the value of the char variable response and performs the following actions:
+package Cydeo;//Write a switch statement that tests the value of the char variable response and performs the following actions:
 //        - if response is y, the message Your request is being processed is printed
 //        - if response is n, the message Thank you anyway for your consideration is printed
 //        - if response is h, the message Sorry, no help is currently available is printed
@@ -23,24 +23,37 @@ public class _2_032_Statements_SwitchChar {
         char response = scan.next().charAt(0);
         //WRITE YOUR CODE HERE
 
-        switch(response)
-        {
-            case 'y':
-                System.out.println("Your request is being processed");
-                break;
+        System.out.println("Would you want to exit ? Yes y or No n");
+        String ans;
+        ans = scan.nextLine();
+        Boolean res = ans.equalsIgnoreCase("y");
 
-            case 'n':
-                System.out.println("Thank you anyway for your consideration");
-                break;
+       do {
 
-            case 'h':
-                System.out.println("Sorry, no help is currently available");
-                break;
+           switch(response)
+           {
+               case 'y':
+                   System.out.println("Your request is being processed");
 
-            default:
-                System.out.println("Invalid entry, please try again!");
-                break;
 
-        }
+               case 'n':
+                   System.out.println("Thank you anyway for your consideration");
+
+
+               case 'h':
+                   System.out.println("Sorry, no help is currently available");
+
+
+               default:
+                   System.out.println("Invalid entry, please try again!");
+
+
+           }
+
+
+
+       }while (res);
+
+
     }
 }

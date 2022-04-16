@@ -1,4 +1,4 @@
-//The variable **name** holds a String user input
+package Cydeo;//The variable **name** holds a String user input
 //
 //        Write a conditional statement that will determine if the person is a student or teacher.
 //
@@ -17,6 +17,7 @@
 //        output: student
 //        ```
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class _2_005_Statements_ConditionalStatementPractice3 {
@@ -25,9 +26,9 @@ public class _2_005_Statements_ConditionalStatementPractice3 {
         String name = inp.nextLine();
         //DO NOT CHANGE ABOVE CODE!  Write your code below
 
-        switch (name)
+        switch (name.toLowerCase())
         {
-            case "Chen":
+            case "chen":
                 System.out.println("teacher");
                 break;
             default:

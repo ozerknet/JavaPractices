@@ -1,4 +1,4 @@
-//In the given program you have a quiz question and a scanner to get the user input which will be stored on string **a**.
+package Cydeo;//In the given program you have a quiz question and a scanner to get the user input which will be stored on string **a**.
 //
 //        after the user inputs an answer (a, b or c) we need to check if its the correct, wrong, or invalid answer.
 //
@@ -76,11 +76,11 @@ public class _2_004_Statements_QuizQuestion {
                 break;
         }
 
-        if (result=="all"){
+        if (result.equals("a")){
             System.out.println(result+" is wrong");
-        }else if (result=="bll"){
+        }else if (result.equals("b")){
             System.out.println(result+" is correct");
-        }else if (result=="cll"){
+        }else if (result.equals("c")){
             System.out.println(result+" is wrong");
         }else{
             System.out.println(result + " is not a valid answer");

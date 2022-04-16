@@ -1,4 +1,4 @@
-//A fast food company has two main order types, burger meal and chicken meal.
+package Cydeo;//A fast food company has two main order types, burger meal and chicken meal.
 //
 //        Both have the same prices, so if a cashier enters "burger" or "chicken " he will get the same price of 10.0.
 //
@@ -35,28 +35,36 @@ import java.util.Scanner;
 public class _2_025_Statements_BurgerOrChicken {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        String in = s.next();
+
+        int ConOrExit =s.nextInt();
 
         //your code here
         double burger_chicken_price=10.0;
         double soda=2.0;
         double fries=3.5;
 
-        switch(in)
-        {
-            case "burger":
-            case "chicken":
-                System.out.println(burger_chicken_price);
-                break;
+        boolean res = ConOrExit == 0 ;
+        do {
 
-            case "soda":
-                System.out.println(soda);
-                break;
+            String in = s.next();
+            switch (in) {
+                case "burger":
+                case "chicken":
+                    System.out.println(burger_chicken_price);
+                    break;
 
-            case "fries":
-                System.out.println(fries);
-                break;
+                case "soda":
+                    System.out.println(soda);
+                    break;
+
+                case "fries":
+                    System.out.println(fries);
+                    break;
+            }
         }
+
+            while (!res);
+
 
     }
 }

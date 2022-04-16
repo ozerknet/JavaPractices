@@ -1,4 +1,4 @@
-//In the Happy Valley School System, children are classified by age as follows:
+package Cydeo;//In the Happy Valley School System, children are classified by age as follows:
 //
 //        Assume only positive numbers are given
 //
