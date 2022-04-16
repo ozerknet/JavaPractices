@@ -1,4 +1,4 @@
-//Write a program that will print out letters in the alphabetic order accordingly to the given range
+package Cydeo;//Write a program that will print out letters in the alphabetic order accordingly to the given range
 // within 2 chars.
 //
 //
@@ -54,10 +54,11 @@ public class _4_014_Loops_PrintLetters {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         char start = scan.next().charAt(0);
+        System.out.println("start = " + start);
         char end = scan.next().charAt(0);
+        System.out.println("end = " + end);
 
-        for(char i=start ; i<=end ; i++)
-        {
+        for (char i = start; i <= end; i++) {
             System.out.print(i);
         }
     }
