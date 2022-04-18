@@ -1,4 +1,4 @@
-//You have 2 words, both of them have 3 characters.
+package Cydeo;//You have 2 words, both of them have 3 characters.
 //
 //        If either of them does not have exactly 3 characters, print "cannot merge"
 //

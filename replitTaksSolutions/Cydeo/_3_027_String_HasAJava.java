@@ -1,4 +1,4 @@
-//Given a string **_word_**, print true if "java" appears starting at index 0 or 1 in the string, such as with "javaxxx" or "xjavaxx" but not "xxjavaxx". The string may be any length, including 0.
+package Cydeo;//Given a string **_word_**, print true if "java" appears starting at index 0 or 1 in the string, such as with "javaxxx" or "xjavaxx" but not "xxjavaxx". The string may be any length, including 0.
 //
 //
 //        Example:

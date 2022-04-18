@@ -1,4 +1,4 @@
-//Write a program that will print out first half of the word twice.
+package Cydeo;//Write a program that will print out first half of the word twice.
 //
 //
 //        Example:

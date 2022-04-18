@@ -1,4 +1,4 @@
-//In this assignment you are given two string variables word1 and word2.
+package Cydeo;//In this assignment you are given two string variables word1 and word2.
 //
 //        Check if they are equal
 //

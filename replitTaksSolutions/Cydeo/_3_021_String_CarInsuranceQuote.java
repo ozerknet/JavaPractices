@@ -1,4 +1,4 @@
-//Write a program that will calculate car insurance premium.
+package Cydeo;//Write a program that will calculate car insurance premium.
 //        Steps to write a program:
 //
 //        - First things first, your program should ask customer to provide a name, so display a message: "Enter your name".

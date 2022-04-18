@@ -1,4 +1,4 @@
-//You have a word, do the following:
+package Cydeo;//You have a word, do the following:
 //
 //        1. When word has **odd number of characters and:**
 //
