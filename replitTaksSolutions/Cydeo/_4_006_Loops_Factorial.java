@@ -1,4 +1,4 @@
-//In mathematics a **factorial** of a positive integer _n_, denoted by _n_!,
+package Cydeo;//In mathematics a **factorial** of a positive integer _n_, denoted by _n_!,
 // is the product of all positive integers less than or equal to _n_.
 // Calculate factorial and output result to the console.
 //

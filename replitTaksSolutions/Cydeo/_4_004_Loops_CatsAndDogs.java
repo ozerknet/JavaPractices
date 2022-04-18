@@ -1,4 +1,4 @@
-//Print true if the string _"cat"_ and _"dog"_ appear the same number of times
+package Cydeo;//Print true if the string _"cat"_ and _"dog"_ appear the same number of times
 // in the given string _word_.
 //
 //
