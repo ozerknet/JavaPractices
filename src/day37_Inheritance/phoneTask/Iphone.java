@@ -12,7 +12,7 @@ public final class Iphone extends Phone{
     }
 
     public void faceTime(String email){
-        System.out.println(brand + " " + model + " is having a Face Time with email: " + email);
+        System.out.println(brand + " " + model + " is having a Face Ozerk.Time with email: " + email);
     }
 
 
