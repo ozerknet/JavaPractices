@@ -12,6 +12,10 @@
       <sourceFolder url="file://$MODULE_DIR$/MyTasks" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WithLuna" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ozerk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0HTML Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0OzerkReplit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0WithLuna" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AvengersHoursPractice" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/taskSolutions/SoftSkills" />
     </content>
     <orderEntry type="inheritedJdk" />
