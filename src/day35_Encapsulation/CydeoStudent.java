@@ -1,4 +1,4 @@
-package day25_CustomMethods_Overloading.day35_Encapsulation;
+package day35_Encapsulation;
 
 public class CydeoStudent {
 

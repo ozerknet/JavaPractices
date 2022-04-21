@@ -1,4 +1,4 @@
-package day36_Inheritance.humanTask.day40_FinalKeyword;
+package day40_FinalKeyword;
 
 public class FinalVariable {
 
