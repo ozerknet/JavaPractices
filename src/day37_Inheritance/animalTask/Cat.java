@@ -6,8 +6,10 @@ public class Cat extends Animal {
         super(name, breed, gender, age, size, color);
     }
 
-    public void scratch(){
-        System.out.println(name+" is scratching");
+
+
+    public void scratch() {
+        System.out.println(name + " is scratching");
     }
 
 
