@@ -1,6 +1,6 @@
 package day36_Inheritance.staffs;
 
-public class StaffObject {
+public class StaffObjects {
     public static void main(String[] args) {
 
         staff s1 = new staff("Ozer",14,'M','A');
