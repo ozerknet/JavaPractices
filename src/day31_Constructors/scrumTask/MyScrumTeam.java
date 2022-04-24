@@ -10,6 +10,10 @@ public class MyScrumTeam {
         Tester tester3=new Tester("Alex",44,"SE",135000);
         Tester tester4= new Tester("Lala", 23,"SDET",115000);
 
+
+
+
+
         Tester[] testers = {tester2, tester3, tester4};
 
         //4 developers objects
