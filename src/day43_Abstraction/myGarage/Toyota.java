@@ -2,8 +2,8 @@ package day43_Abstraction.myGarage;
 
 public class Toyota extends Car{
 
-    public Toyota(String brand, String model, int year) {
-        super(brand, model, year);
+    public Toyota(String model, int year) {
+        super("Toyota", model, year);
     }
 
     public void start() {
