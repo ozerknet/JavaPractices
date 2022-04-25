@@ -1,7 +1,11 @@
 package day40_FinalKeyword.Ramazan;
 
 public class Community {
-    AreaManager murat = new AreaManager();
+    public static void main(String[] args) {
+        AreaManager murat = new AreaManager();
+
+        murat.iftar();
+    }
 
 
 
