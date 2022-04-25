@@ -11,16 +11,19 @@ public class EmployeeObjects {
         Developer developer = new Developer("Alex",28,'M',32,"Web Developer",155000.00);
         Teacher teacher = new Teacher("Angel",28,'F',22,"English Teacher",85000.00);
         Driver driver = new Driver("Jhon",34,'M',42,"Lyft Driver",75000.00);
+//---------------------------------------------------------------------------------------------
 
         System.out.println(tester);
         System.out.println(developer);
         System.out.println(teacher);
         System.out.println(driver);
+//---------------------------------------------------------------------------------------------
 
         tester.work();
         tester.sleep();
         tester.bugReport();
         tester.eat();
+//---------------------------------------------------------------------------------------------
 
         System.out.println("-----------------------------------");
 
@@ -29,6 +32,7 @@ public class EmployeeObjects {
        // developer.bugReport();
         developer.eat();
         developer.unitTest();
+//---------------------------------------------------------------------------------------------
 
         System.out.println("-----------------------------------");
 

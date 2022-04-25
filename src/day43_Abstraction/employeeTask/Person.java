@@ -6,11 +6,14 @@ public abstract class Person {
     private int age;
     private char gender;
 
+//---------------------------------------------------------------------------------------------
+
     public Person(String name, int age, char gender) {
         setName(name);
         setAge(age);
         setGender(gender);
     }
+//---------------------------------------------------------------------------------------------
 
     public String getName() {
         return name;
@@ -40,11 +43,12 @@ public abstract class Person {
     }
 
 
-    public abstract void sleep();                                                   // Here is the ABSTRACT
+    public abstract void sleep();     // Here is the ABSTRACT
 
     public void eat(){
         System.out.println(name+" is eating baklava");
     }
+//---------------------------------------------------------------------------------------------
 
     @Override
     public String toString() {

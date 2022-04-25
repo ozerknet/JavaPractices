@@ -7,6 +7,10 @@ public final class Tester extends Employee {
         super(name, age, gender, id, jobTitle, salary);
     }
 
+
+//---------------------------------------------------------------------------------------------
+
+
     @Override
     public void work() {
         System.out.println(getName()+" is testing the application");
@@ -21,5 +25,7 @@ public final class Tester extends Employee {
         System.out.println(getName()+" is creating bug reports");
     }
 
+
+//---------------------------------------------------------------------------------------------
 
 }
