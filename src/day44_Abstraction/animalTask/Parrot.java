@@ -6,16 +6,15 @@ public final class Parrot extends Animal implements Playable, Flyable {
         super(name, breed, gender, age, size, color);
     }
 
+//---------------------------------------------------------------------------------------------
+
     @Override
     public void eat() {
         System.out.println(getName()+" is eating chocolate");
     }
 
     @Override
-    public void play() {
-
-    }
-
+    public void play() {    }
 
     @Override
     public void fly() {

@@ -28,6 +28,8 @@ public abstract class Animal {
         canBreathe = true;
     }
 
+//---------------------------------------------------------------------------------------------
+
     public Animal(String name, String breed, char gender, int age, String size, String color) {
         setName(name);
 
@@ -43,6 +45,8 @@ public abstract class Animal {
 
         this.color = color;
     }
+
+//---------------------------------------------------------------------------------------------
 
     public String getName() {
         return name;
@@ -89,6 +93,7 @@ public abstract class Animal {
 
     public  abstract void eat();
 
+//---------------------------------------------------------------------------------------------
 
     @Override
     public String toString() {

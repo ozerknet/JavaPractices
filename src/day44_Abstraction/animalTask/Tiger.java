@@ -6,6 +6,8 @@ public final class Tiger extends Animal implements WildAnimal{
         super(name, breed, gender, age, size, color);
     }
 
+//---------------------------------------------------------------------------------------------
+
     @Override
     public void eat() {
         System.out.println(getName()+" is eating deer");

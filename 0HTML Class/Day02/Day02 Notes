@@ -1,0 +1,185 @@
+Friday, 28th, 2022
+ANNOUNCEMENTS:
+- HTML QUIZ
+- SELENIUM PROJECT CREATION (published in Canvas Test Automation Module)
+- SHORT VIDEOS
+ 
+- What is front-end?
+    - What user sees and interacts with is called front-end
+    - UI = user interface
+    - GUI = graphic user interface
+- What is backend?
+    - Back-end is everything other than the front-end
+    - Back-end constructs the business logic, the calculations for the front-end
+    - Without proper back-end connections, the front-end functionalities will not work properly
+
+- What is HTML?
+    - Hypertext Markup Language
+- What is HTML used for?
+    - HTML is used to create certain structure for web applications
+- What is a mark up language?
+    - Markup languages are created using "mark-up tags"
+- Is HTML the only markup language?
+    - No. There are other markup languages such as XML.
+- What is a MARK UP TAG?
+    - Mark up tags act like containers
+    - These tags will determine how the content will be displayed on the web page
+    - We can have the exactly same content in different tags, and they will be displayed/structured differently on the web page
+- How many types of markup tags do we have?
+    - 2 types.
+    #1- Paired tags        :
+        - Paired tags have opening tag and closing tag.
+        syntax: <openingTag> CONTENT </closingTag>
+        - ex: p, h, li, ul, ol, strong, em, u, html, head, body, title, tr, td
+ 
+    #2- Unpaired tags    :
+        - These are also called self-closing tags.
+        - They are just one part.
+        syntax: </selfClosing>
+        - ex: br, img, hr
+- What kind of structure EVERY HTML page has to follow?
+    #1- Doctype declaration
+    #2- <html> </html> tag : 
+        - is the parent/ascendent of all other web elements
+    #3- <head> </head> tag : 
+        - Everything that is not displayed on the page itself goes inside of the <html> tag, such as: title, links, fontstyle 
+    #4- <body> </body> tag:
+        - Everything we want to display on the page goes inside of the <body> tag
+
+-> What is <title> tag, and why is it used for?
+    - Title of the page is what comes up in the search engines
+    - Title also defines different pages of the application
+    - If title changes it means we are on a different page
+    - Title is only displayed on the browser tab itself
+    - We don't see the title in the page itself
+-> <p> tag:
+    - Whatever content is passed inside of this tag, it will be displayed as paragraph
+    - p tag is a block element?
+- What is a block element?
+    - Block element means the element will take the whole line from left to right side of the screen
+    - Anything comes right after it will be pushed to under the element
+-> <h>
+    - h tag is used for creating headers
+    - h1 thru h6 will create different size of headers
+    - h1 biggest, h6 smallest
+
+-> What is an ATTRIBUTE?
+    - Attributes provide additional information about given tag.
+    - We can have as many attributes as we want to have. 
+    - Attributes will always go inside of the opening tag (if it is a paired tag)
+    - If it is unpaired tag (self-closing tag), it will go inside of the tag itself.
+    syntax: 
+    <openingTag attributeName1="attributeValue" attributeName2="attributeValue"> CONTENT </closingTag>
+    </selfClosingTag attributeName1="attributeValue"> 
+
+ ex: <p style="color:red;"> today is a snowy day </p>
+     #1- What is the tag?
+         - <p> </p>
+     #2- What is the text/content of this tag?
+         - today is a snowy day
+     #3- What is the name of the attribute used?
+         - style
+     #4- What is the value of the attribute used?
+         - color:red;
+----
+    How to get path in different OS (MAC & WINDOWS):
+    - If the file that we are trying to get the path of is inside of the same folder with the source, just the name and the extension of the file is good enought to pass as path.
+
+    ex: sunnyday.jpeg is in the same file as our firstTask.html
+        - Therefore just the name of the file is good enough as path.
+    <img src="sunnyday.jpeg" height="300">
+
+    - If they are not in the same file, we have to pass the full path (absolute path).
+
+    How do we get the absolute path (full path):
+    - MAC: 
+        First way:
+        #1- Right click on the file
+        #2- Click "Get Info"
+        #3- Copy from "Where" section: /Users/cybertekchicago-1/Desktop/HTML Class
+
+        Second way:
+        #1- Right click on the file
+        #2- Press and hold "option" button from keyboard
+        #3- Select "Copy as path name"
+        #4- Paste it where ever we need to use it.
+    - WINDOWS:
+        First way:
+        #1- Right click on the file
+        #2- Go to "Properties"
+        #3- Go to "Security" tab from the top of the page
+        #4- Copy path from there and paste where needed
+
+        Second way:
+        #1- Right click on the file
+        #2- Go to "Properties"
+        #3- Copy from the "Location" and paste in where ever needed
+ 
+----------------------------------------
+ - ANCHOR TAG : <a>
+     - <a> tag allows us to create links on html page
+     - <a> tag is a paired tag.
+     - <a> tag MUST have an href attribute within.
+     - The text passed inside of the href attribute's value will be where the user taken once the link is clicked.
+     - The UI will display the text of the anchor tag <a>, which is in between the opening tag and closing tag.
+
+     ex:
+     <li> <a href="https://www.kbb.com">KBB</a> </li>
+
+     - "KBB" text will be displayed on the page
+     - "href" value (https://www.kbb.com) is where the user is taken when the link is clicked
+
+----------------------------------------
+    - <table> tag
+        - This tag allows us to create HTML tables on the page
+        - By itself it is not enough, we need to use <tr>, and <td> (<th>)
+        - HTML tables are created first ROW BY ROW, than cells are created within rows.
+        - Tables also should have head and body section.
+        <table> </table> : creates the table
+        <thead> </thead> : contains header information
+        <tbody> </tbody> : actual content of the table goes here
+        <tr> : 
+            - stands for "table row"
+            - creates each row
+            - however many tr we create, that many rows we will have in the table
+        <td> : 
+            - stands for "table data"
+            - allows us to create cells within the rows
+        <th> :
+            - stands for "table header"
+            - allows us to crate cells just like <td> but it will also make the content "bolded" and "centered"
+
+--------------------------------------------------------------------------------
+    
+    - <div> </div>
+        - div tag is commonly used as a container to style group of web elements
+        - it is a block element which means it goes all the way to right
+        - it is just a container to group and apply different stylings, fonts, colors to web elements.
+    - <span> </span>
+        - span is very similar to div.
+        - it is used as smaller container to give certain styling to parts of the web element without disrupting the rest of the web element
+        - span is inline element (not block element)
+
+--------------------------------------------------------------------------------
+    - input tag
+        - <input> tag allows the user to enter input in different ways
+        - username
+        - password
+        - checkbox
+        - radiobutton
+        - colorpicker
+        - calender
+
+--------------------------------------------------------------------------------
+    - select tag
+        - <select> tag allows us to create dropdowns in HTML page.
+        - it is a paired tag
+        - we must provide <option> tag inside <select> tag to provide multiple options for the user
+
+        <select> 
+            <option> January </option>
+            <option> February </option>
+            <option> March </option>
+        </select>
+ 
+

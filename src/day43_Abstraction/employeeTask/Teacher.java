@@ -6,6 +6,7 @@ public final class Teacher extends Employee {
     public Teacher(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender, id, jobTitle, salary);
     }
+//---------------------------------------------------------------------------------------------
 
     @Override
     public void work() {
@@ -17,6 +18,7 @@ public final class Teacher extends Employee {
         System.out.println(getName()+" is slepping 8 hours.");
     }
 
+//---------------------------------------------------------------------------------------------
 
 
 }

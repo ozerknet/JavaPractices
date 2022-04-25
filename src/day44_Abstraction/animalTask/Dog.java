@@ -6,10 +6,11 @@ public final class Dog extends Animal implements Playable{
         super(name, breed, gender, age, size, color);
     }
 
+//---------------------------------------------------------------------------------------------
+
     public void bark(){
         System.out.println(getName()+" is barking");
     }
-
 
     public void eat() {
         System.out.println(getName()+" eats Pizza");

@@ -7,11 +7,12 @@ public final class Eagle extends Animal implements WildAnimal, Flyable{
         super(name, breed, gender, age, size, color);
     }
 
+//---------------------------------------------------------------------------------------------
+
     @Override
     public void eat() {
         System.out.println(getName()+" is eating snake");
     }
-
 
     @Override
     public void hunt() {
