@@ -8,6 +8,8 @@ public class AnimalObjects {
 
         System.out.println(dog1);
 
+        dog1.eat();
+
         dog1.bark();
         //dog1.scratch();
         //dog1.sing();

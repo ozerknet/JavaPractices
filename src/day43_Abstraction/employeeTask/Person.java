@@ -40,7 +40,7 @@ public abstract class Person {
     }
 
 
-    public abstract void sleep();
+    public abstract void sleep();                                                   // Here is the ABSTRACT
 
     public void eat(){
         System.out.println(name+" is eating baklava");
