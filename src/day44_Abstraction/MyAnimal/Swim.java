@@ -1,4 +1,4 @@
-package day44_Abstraction.Students.MyAnimal;
+package day44_Abstraction.MyAnimal;
 
 public interface Swim {
 
