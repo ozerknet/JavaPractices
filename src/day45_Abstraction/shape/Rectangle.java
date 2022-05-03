@@ -5,6 +5,8 @@ public class Rectangle extends Shape {
         super(name);
     }
 
+    //---------------------------------------------------------------------------------------------
+
     @Override
     public double area() {
         return 0;

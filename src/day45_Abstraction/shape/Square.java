@@ -4,10 +4,18 @@ public class Square extends Shape{
 
     private double side;
 
-    public Square( double side) {
+    //---------------------------------------------------------------------------------------------
+
+    /* public Square( double side) {
         super("Square");
         setSide(side);
+    }*/
+
+    public Square(String name, double side) {
+        super("Square");
+        this.side = side;
     }
+    //---------------------------------------------------------------------------------------------
 
     public double getSide() {
         return side;
@@ -20,6 +28,7 @@ public class Square extends Shape{
         this.side = side;
     }
 
+    //---------------------------------------------------------------------------------------------
 
     public double area() {
         return side * side;
@@ -28,6 +37,8 @@ public class Square extends Shape{
     public double perimeter() {
         return side * 4;
     }
+
+    //---------------------------------------------------------------------------------------------
 
     @Override
     public String toString() {

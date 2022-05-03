@@ -27,10 +27,14 @@ public class Circle extends Shape {
 
     public final static double pi = 3.14;
 
+    //---------------------------------------------------------------------------------------------
+
     public Circle( double radius) {
         super("Circle");
         setRadius(radius);
     }
+
+    //---------------------------------------------------------------------------------------------
 
     public double getRadius() {
         return radius;
@@ -43,6 +47,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    //---------------------------------------------------------------------------------------------
 
     @Override
     public double area() {
@@ -53,6 +58,8 @@ public class Circle extends Shape {
     public double perimeter() {
         return 2 * radius * pi;
     }
+
+    //---------------------------------------------------------------------------------------------
 
     @Override
     public String toString() {
