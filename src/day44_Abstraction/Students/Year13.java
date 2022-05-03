@@ -1,6 +1,6 @@
 package day44_Abstraction.Students;
 
-public final class Year13 extends Student implements Sleep {
+public final class Year13 extends Student implements Sleep, UniversityExam{
     public Year13(int ID, String name, char gender, int age, int yearClass) {
         super(ID, name, gender, age, yearClass);
     }

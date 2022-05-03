@@ -1,6 +1,6 @@
 package day44_Abstraction.Students;
 
-public final class Year11 extends Student implements Sleep, Talk{
+public final class Year11 extends Student implements Sleep, Talk,ElevenPlusExam, ALevelExam{
     public Year11(int ID, String name, char gender, int age, int yearClass) {
         super(ID, name, gender, age, yearClass);
     }

@@ -1,6 +1,6 @@
 package day44_Abstraction.Students;
 
-public final class Year9 extends Student implements Sleep{
+public final class Year9 extends Student implements Sleep, GcseExam{
 
 
     public Year9(int ID, String name, char gender, int age, int yearClass) {
