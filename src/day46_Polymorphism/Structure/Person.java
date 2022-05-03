@@ -57,7 +57,7 @@ public abstract class Person {
     public abstract void work();
 
 
-    public abstract void Drink();
+    // public abstract void Drink();
 
     //---------------------------------------------------------------------------------------------
 

@@ -32,11 +32,17 @@ public class Hall {
 
         Person Ahmet = new Volunteer("Ahmet", 41,'M',0025);
 
-        Ahmet.Drink();
+        //Ahmet.Drink();
 
         Person Elif = new Volunteer("elif",20,'F',520);
 
-        Elif.Drink();
+        //Elif.Drink();
+
+        Person Adnan = new StartVol("Adnan",60,'M',506);
+        //Adnan.Drink();
+
+
+
 
     }
 
