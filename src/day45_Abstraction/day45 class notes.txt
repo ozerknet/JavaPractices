@@ -55,7 +55,7 @@ interface: blueprint of class
 
 
 
-Abastract class vs interface: both are used for achieving abstraction
+Abstract class vs interface: both are used for achieving abstraction
 							  both can not be instantiated
 							  both can not be final
 							  both are meant to be inherited
