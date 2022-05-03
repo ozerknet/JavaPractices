@@ -11,7 +11,7 @@ public class Square extends Shape{
         setSide(side);
     }*/
 
-    public Square(String name, double side) {
+    public Square(double side) {
         super("Square");
         this.side = side;
     }
