@@ -32,7 +32,7 @@ public class PolymorphismPractice {
 
             if(eachCar instanceof Toyota){
                 if(eachCar.year >= 2010 && eachCar.year <= 2011){
-                    System.out.println(eachCar);
+                    System.out.println((eachCar));
                 }
             }
 

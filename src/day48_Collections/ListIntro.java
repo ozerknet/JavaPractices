@@ -42,6 +42,21 @@ public class ListIntro {
 
         System.out.println(list4);
 
+        System.out.println("------------------------------------------------------------");
+
+        Set<Integer> listMine1 = new HashSet<>();
+        listMine1.addAll(Arrays.asList(1000, 200, 30000, 400, 500000, 6000));
+        System.out.println("listMine1 = HashSet" + listMine1);
+
+        Set<Integer> listMine2 = new LinkedHashSet<>();
+        listMine2.addAll(Arrays.asList(1000, 200, 30000, 400, 500000, 6000));
+        System.out.println("listMine2 = LinkedHashSet" + listMine2);
+
+        SortedSet<Integer> listMine3 = new TreeSet<>();
+        listMine3.addAll(Arrays.asList(1000, 200, 30000, 400, 500000, 6000));
+        System.out.println("listMine3 = TreeSet" + listMine3);
+
+
 
     }
 
