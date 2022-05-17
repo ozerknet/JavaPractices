@@ -63,6 +63,8 @@ public class SetPractice2 {
 
         String result = ""; //e5a4b4c4d3
 
+        String st1 = String.valueOf(new LinkedHashSet<String>(Arrays.asList(str.split(""))));
+        System.out.println("st1 = " + st1);
 
         for (String each : new LinkedHashSet<>(Arrays.asList(str.split("")))) {
              result += each + Collections.frequency(  Arrays.asList(str.split("")) ,  each);
@@ -77,7 +79,14 @@ public class SetPractice2 {
         Set<String> names = new LinkedHashSet<>();
         names.addAll(Arrays.asList("Ahmet", "Ahmet", "John", "James", "Breanna", "Shay", "Ahmet"));
 
-        System.out.println( names.toArray(new String[0])[2] );
+        System.out.println("Look this area");
+        System.out.println("names = " + names);
+        String[] names1 = names.toArray(new String[0]);
+
+        System.out.println(Arrays.asList(names1));
+
+        System.out.println( names.toArray(new String[30])[2] );
+
 
         System.out.println( new ArrayList<>(names).get(4)  );
 

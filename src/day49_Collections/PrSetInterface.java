@@ -20,6 +20,9 @@ public class PrSetInterface {
 
 
         Set<Integer> treeSet = new TreeSet<>();
+        SortedSet<Integer> tree = new TreeSet<>();
+        tree.addAll(Arrays.asList(34,1,3,6,8,34,21,7,0,null));
+        System.out.println("tree = " + tree);
 
 
     }
