@@ -1,4 +1,4 @@
-//We will be manipulating elements of an ArrayList by using List methods.
+package A7ArrayList;//We will be manipulating elements of an ArrayList by using List methods.
 //
 //        The first List method we will learn is `.add()`
 //

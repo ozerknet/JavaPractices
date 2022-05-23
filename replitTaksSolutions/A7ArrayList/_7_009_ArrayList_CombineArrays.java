@@ -1,4 +1,4 @@
-//Finish the **combineRs** method to combine the two given String arrays into one arraylist and return the arraylist.
+package A7ArrayList;//Finish the **combineRs** method to combine the two given String arrays into one arraylist and return the arraylist.
 //
 //        for example:
 //

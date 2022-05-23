@@ -1,4 +1,4 @@
-//Create a static method that:
+package A7ArrayList;//Create a static method that:
 //
 //        - is called `combineAL`
 //        - returns an `ArrayList<Integer>`

@@ -31,6 +31,8 @@ public class RemovePalindromes {
 
         System.out.println(names);
 
+
+        /*
         System.out.println("-----------------------------------------------------");
 
         List<String> names2 = new ArrayList<>();

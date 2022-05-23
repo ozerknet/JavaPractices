@@ -1,4 +1,4 @@
-//The last ArrayList method we are going to learn is... .add() again!
+package A7ArrayList;//The last ArrayList method we are going to learn is... .add() again!
 //
 //        Except this time, instead of .add() taking one parameter (the thing we want to add), this time,
 //        we will be giving it two parameters.  The two parameters are:
