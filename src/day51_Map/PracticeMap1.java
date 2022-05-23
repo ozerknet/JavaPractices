@@ -2,7 +2,7 @@ package day51_Map;
 
 import java.util.*;
 
-public class PraticeMap1 {
+public class PracticeMap1 {
     public static void main(String[] args) {
 /*
         Map<Integer, String> hashMap = new HashMap<>();
