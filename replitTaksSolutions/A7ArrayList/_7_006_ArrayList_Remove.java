@@ -1,4 +1,4 @@
-//The next ArrayList method we are going to learn is `.remove()`
+package A7ArrayList;//The next ArrayList method we are going to learn is `.remove()`
 //
 //        The `.remove(i)` method will remove the element at index i.
 //        This means that all elements after index i will be shifted back to fill the hole left by the removal.

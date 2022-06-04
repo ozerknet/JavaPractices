@@ -1,6 +1,6 @@
 package day39_Inheritance_Ecnapsulation.animalTask;
 
-public class Eagle extends WildAnimal{
+public class Eagle extends WildAnimal implements Flyable{
 
     public Eagle(String name, String breed, int age, char gender, String size, String color) {
         super(name, breed, age, gender, size, color);
